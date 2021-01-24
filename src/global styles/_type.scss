@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+:root{
+--font-family-primary:'Montserrat', sans-serif;
+--font-family-secondary:'Monoton', cursive;
+
+
+--font-weight-light: 400;
+--font-weight-normal: 500;
+--font-weight-bold: 700;
+
+
+--font-size-base: 1rem;
+
+--font-size-900:calc(2.5 * var(var(--font-size-base)));
+--font-size-800:calc(2.25 * var(var(--font-size-base)));
+--font-size-700:calc(2 * var(var(--font-size-base)));
+--font-size-600:calc(1.75 * var(var(--font-size-base)));
+--font-size-500:calc(1.5 * var(var(--font-size-base)));
+--font-size-400:calc(1.25 * var(var(--font-size-base)));
+--font-size-300:calc(1 * var(var(--font-size-base)));
+--font-size-200:calc(0.75 * var(var(--font-size-base)));
+--font-size-100:calc(0.5 * var(var(--font-size-base))); 
+
+--line-height-sm:1;
+--line-height-md:1.5;
+--line-height-lg: 2;
+}
